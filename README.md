@@ -1,1 +1,1 @@
-Here you can see stuff on python which i learnt and displaying here.
+Here you can find some python stuff which I've created in the process of learning it.
