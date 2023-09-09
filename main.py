@@ -21,6 +21,9 @@ while not bidding:
   next_bid = input("\nAny one else is there to bid? (yes or no)")
   if next_bid == "no":
     winner(bid)
+    choice = input("\nDo you want to see other bids as well?(yes or no) ")
+    if choice == "yes":
+      print(bid)
     bidding = True
   else:
     clear()
