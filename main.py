@@ -1,4 +1,5 @@
 from art import logo
+from replit import clear
 
 def add(n1, n2):
     return (n1+n2)
@@ -39,7 +40,7 @@ def cal():
             n1 = ans
         else:
             cal_continue = False
-            
+            clear()
             cal()
 
 cal()
